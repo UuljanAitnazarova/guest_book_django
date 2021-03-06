@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class GuestBook(models.Model):
+class Entry(models.Model):
 
     STATUS_CHOICE = [
         ('active', 'Активно'),
