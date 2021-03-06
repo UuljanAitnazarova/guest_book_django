@@ -1,13 +1,13 @@
 from django.contrib import admin
 
-from bookapp.models import GuestBook
+from bookapp.models import Entry
 
 
-class GuestBookAdmin(admin.ModelAdmin):
+class EntryAdmin(admin.ModelAdmin):
     list_display = ['id', 'author', 'email', 'text', 'status']
     list_filter = ['status']
     search_fields = ['author']
-    fields = ['author', 'email', 'text', 'status', 'created_at', 'updated_at']
+    fields = ['author', 'email', 'text', 'status']
 
 
-admin.site.register(GuestBook, GuestBookAdmin)
+admin.site.register(Entry, EntryAdmin)
