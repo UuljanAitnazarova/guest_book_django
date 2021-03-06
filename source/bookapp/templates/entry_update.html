@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
 
+{% load crispy_forms_tags %}
+
 {%  block content %}
+     <!-- {{ form|crispy }} -->
 <form action="{% url 'entry_update' entry.id %}" method='post'>
     {% include 'entry_form.html' with button_text='Update' %}
 </form>

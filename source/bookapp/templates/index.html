@@ -1,9 +1,25 @@
 {% extends 'base.html' %}
+{% block nav %} 
+<li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="{% url 'entry_create' %}">Add New Entry</a>
+  </li>
+{% endblock nav %}
+
+
 
 {% block content %}
 {% for entry in entries %}
-<p>{{ entry.author }} | {{ entry.email }}</p>
-<p>{{ entry.text }}</p>
+    <div class="card text-center" style="margin-top: 40px; background-color: #C70039; color:white">
+        <span>
+            <a href="{% url 'entry_update' entry.id %}" style="color: thistle;"><i class="fas fa-edit"></i> </a>   | <a href="{% url 'entry_delete' entry.id %}" style="color:thistle;"><i class="fas fa-eraser"></i></a> 
+        </span>
+      
+
+        <div class="card-body">
+            <h5 class="card-title">{{ entry.author }} | {{ entry.email }}</h5>
+            <p class="card-text">{{ entry.text }}</p>
+        </div>
+    </div>
 {% endfor %}
 
 {% endblock content %}
