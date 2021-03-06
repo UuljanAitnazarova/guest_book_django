@@ -1,0 +1,62 @@
+[
+{
+  "model": "bookapp.guestbook",
+  "pk": 1,
+  "fields": {
+    "author": "admin",
+    "email": "u.aitnazarova@gmail.com",
+    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aperiam maiores in, dolore ipsa temporibus autem neque itaque harum perspiciatis necessitatibus ea, reiciendis doloremque adipisci velit assumenda laboriosam animi ad impedit enim sunt culpa odio voluptatum? Obcaecati optio atque sunt, accusantium accusamus ex dignissimos esse praesentium ducimus ea culpa hic nulla dolorum. Dolores illo sunt recusandae reprehenderit harum voluptatibus adipisci tempora ipsum voluptates veritatis, provident, optio itaque sapiente. Dicta, quos ea. Alias, praesentium officiis nisi eum maiores et ipsum nesciunt.",
+    "created_at": "2021-03-06T06:01:38.495Z",
+    "updated_at": "2021-03-06T06:02:05.151Z",
+    "status": "active"
+  }
+},
+{
+  "model": "bookapp.guestbook",
+  "pk": 2,
+  "fields": {
+    "author": "Uuljan",
+    "email": "uuljan@gmail.com",
+    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum nobis corporis nulla quibusdam eius rerum porro saepe obcaecati velit fuga vero, aspernatur ipsum odio! Nulla corporis cupiditate iste porro modi mollitia animi asperiores quia. Molestias sapiente voluptate, debitis laudantium quis facere pariatur dolores tempore? Suscipit repellendus enim nostrum iusto quis.",
+    "created_at": "2021-03-06T06:02:49.524Z",
+    "updated_at": "2021-03-06T06:02:49.524Z",
+    "status": "active"
+  }
+},
+{
+  "model": "bookapp.guestbook",
+  "pk": 3,
+  "fields": {
+    "author": "admin",
+    "email": "admin@gmail.com",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum, nostrum voluptatem incidunt impedit quia fuga dicta eum quo laudantium non odio quod quam! Veniam, qui. Minima, a quam porro repellendus facilis id incidunt omnis vero magnam autem fugiat reiciendis ut facere unde? Architecto corrupti libero enim exercitationem repellat voluptas expedita. Numquam temporibus autem quidem sunt corrupti ducimus a, minus id vel magni quis? Corrupti veritatis recusandae nostrum quas iste, natus consequuntur iure repellendus dolores libero ipsa doloremque est! Deleniti quasi minus, vel tempore exercitationem nisi placeat tenetur at id consequatur totam odio esse. Eaque dicta sequi odit dolor expedita.",
+    "created_at": "2021-03-06T06:03:18.241Z",
+    "updated_at": "2021-03-06T06:03:18.242Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "bookapp.guestbook",
+  "pk": 4,
+  "fields": {
+    "author": "jenny",
+    "email": "jenny@gmail.com",
+    "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque exercitationem rem quasi harum nulla non cum illum magnam ex similique nobis, nemo eligendi placeat quisquam fuga id fugiat eos blanditiis.",
+    "created_at": "2021-03-06T06:03:55.112Z",
+    "updated_at": "2021-03-06T06:03:55.112Z",
+    "status": "active"
+  }
+},
+{
+  "model": "bookapp.guestbook",
+  "pk": 5,
+  "fields": {
+    "author": "testuser",
+    "email": "testuser@testuser.com",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, veritatis. Cupiditate ipsam dolor, perspiciatis molestias autem architecto saepe distinctio consectetur?",
+    "created_at": "2021-03-06T06:04:32.075Z",
+    "updated_at": "2021-03-06T06:04:32.075Z",
+    "status": "blocked"
+  }
+}
+]
