@@ -1,8 +1,10 @@
 {% extends 'base.html' %}
 {% block nav %} 
-<li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="{% url 'entry_create' %}">Add New Entry</a>
-  </li>
+
+<form class="d-flex" action="" method='get'>
+    <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search" name="author">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
 {% endblock nav %}
 
 

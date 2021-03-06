@@ -5,7 +5,10 @@ from .forms import EntryForm
 
 
 def index_view(request):
-    entries = Entry.objects.filter(status='active').order_by('-created_at')
+    if request.GET.get('author'):
+        entries = Entry.objects.filter(author=request.GET.get('author'))
+    else:
+        entries = Entry.objects.filter(status='active').order_by('-created_at')
     return render(request, 'index.html', context={'entries':entries})
     
 
